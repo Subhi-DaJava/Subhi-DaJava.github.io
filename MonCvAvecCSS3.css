@@ -1,0 +1,89 @@
+#conteneur{
+	display: flex;
+	position: relative;
+	width: 1100px;
+	margin: auto;
+	flex-direction: column;
+}
+
+.lisere{
+	position: absolute;
+	left: 0px;
+	width: 20px;
+	background-color: rgb(255, 0, 0);
+	height: 1600px;
+	
+}
+
+header{
+	margin-left: 50px;
+
+}
+.resim{
+	float: right;
+	border: 2px solid black;
+	box-shadow: 2px 2px 2px black;
+}
+
+header h1,p{
+	text-align: center;
+}
+
+#contenu{
+	display: flex;
+	justify-content: space-between;
+	margin-left: 50px;
+}
+
+section{
+
+}
+
+
+
+
+
+/*dessous creé avant avec le CSS*/
+
+@font-face {
+  font-family: myFirstFont;
+  src: url(Allison-Regular.ttf);
+}
+
+body{
+	background-image: url("na2.jpeg");
+	font-family: 'Montserrat', sans-serif; /*J'utilise un font-google*/
+}
+
+
+h1{
+	color: rgb(255, 0, 0);
+}
+
+
+.exp{
+	color: rgb(120, 120, 250);
+}
+
+.compe{
+	text-align: center;
+}
+
+
+.f1{
+	font-family: myFirstFont;
+	color: rgb(200, 20, 0);
+	font-weight: bold;
+	font-size: 1.5em;
+}
+
+.h2{
+	border: 3px dotted;
+	box-shadow: 6px 6px 20px blue;
+	width: 200px;
+	text-align: center;
+}
+
+/*h1+p{
+	text-align: center;
+}*/
