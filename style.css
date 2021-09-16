@@ -14,7 +14,25 @@
 	.monImage{
 		display: none;
 	}
+
 }
+
+/*les balises les singe plus grand et plus petit disparaissent*/
+@media all and (max-width:  1024px){ 
+
+	.aside{
+		display: none;
+	}
+	article{
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+
+}
+
+
+
+
 
 
 body{
@@ -28,13 +46,7 @@ body{
 	background: #7451eb; /*entre les divs (Top et maPhoto)*/
 	position: relative;
 	width: 900px;
-	height: 300px;
-	/*align-content: flex-end; lines packed to the end of the container*/
-/*	justify-content: space-between;
-*/
-
-	
-   
+	height: 300px;   
 }
 
 #titre{
@@ -76,33 +88,34 @@ body{
 }
 
 section{
+	display: inline-flex;
 	position: relative;
 
-	display: flex;
-	flex-direction: row-reverse;  /*changer l'ordre*/
-
-	justify-content: space-between; /*entre grand div et nav */
-   
-    align-items: center; /*mettre les items au centre */
-
-}
-
-article{
-
-	flex: 3; /*occupé la place 3fois plus grandes*/
-}
-aside{
-
 	
+
+}
+
+/*occupé la place 3fois plus grandes*/
+article{
+	display: inline-block;
+	flex: 3; 
+	text-align: justify;
+}
+
+
+
+
+/*occupé la place 2fois plus grande*/
+aside{
+	display: inline-block;
 	margin-left: 100px;
-	flex: 2;  /*occupé la place 2fois plus grande*/
+	flex: 2;  
 }
 
 .balise{
 	font-size: 6em;
 	font-weight: bolder;
 }
-
 
 
 
