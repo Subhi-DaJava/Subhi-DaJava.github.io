@@ -1,0 +1,158 @@
+#MaPage{
+	width: 900px;
+	margin: auto;
+	height: 1050px;
+}
+
+/*responsive*/
+@media all and (max-width:  1024px){
+
+	#MaPage{
+		width: auto;
+	}
+
+	.monImage{
+		display: none;
+	}
+
+}
+
+/*les balises les singe plus grand et plus petit disparaissent*/
+@media all and (max-width:  1024px){ 
+
+	.aside{
+		display: none;
+	}
+	article{
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+
+}
+
+
+
+
+
+
+body{
+	margin: 0px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+#header{
+
+	display: flex;
+	background: #7451eb; /*entre les divs (Top et maPhoto)*/
+	position: relative;
+	width: 900px;
+	height: 300px;   
+}
+
+#titre{
+	margin-top: 40px;
+	margin-left: 100px;
+	
+}
+
+
+#maPhoto img{
+	width: 22%;
+	 position: absolute; 
+    bottom: 0px;
+    right: 150px;
+}
+
+#titre p{
+	margin-left: -5px;
+	margin-top: 0px;
+	background: rgb(0, 221, 111);
+	width: 320px;
+	font-size: 1.2em;
+	text-align: center;
+	font-weight: bold;
+	
+}
+
+#titre h1{
+	color: #ffffff;
+	font-size: 1.7em;
+	margin-bottom: 3px;
+	font-weight: bold;
+}
+.discrip{
+	margin-left: 80px;
+	margin-top: 50px;
+	font-size: 1.2em;
+	color: #ffffff;
+}
+
+section{
+	display: inline-flex;
+	position: relative;
+
+	
+
+}
+
+/*occupé la place 3fois plus grandes*/
+article{
+	display: inline-block;
+	flex: 3; 
+	text-align: justify;
+}
+
+
+
+
+/*occupé la place 2fois plus grande*/
+aside{
+	display: inline-block;
+	margin-left: 100px;
+	flex: 2;  
+}
+
+.balise{
+	font-size: 6em;
+	font-weight: bolder;
+}
+
+
+
+footer{
+	background: rgb(0, 47, 94);
+	height: 280px;
+	padding-top:70px  ;
+	padding-left: 100px;
+}
+#logoReseau p img{
+	width: 6%;
+}
+
+footer h1{
+	color: #FFF;
+	margin-bottom: 0px; /* h1 et p */
+}
+
+span{
+	background-color: rgb(0, 221, 111);
+	margin-right: 2px;
+	font-size: 1.2em;
+}
+
+#reseaux p{
+	color: #fff;
+	margin-top: 0px;
+	margin-bottom: 25px; /*p et logos*/
+}
+
+
+
+
+#logoReseaux img:hover{
+	transform: scale(1.6);  /*Zoom on Hover, 150% zoom - Note: if the zoom is too large, it will go outside of the viewport)*/
+
+	
+
+
+}
