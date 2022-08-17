@@ -27,7 +27,6 @@
 		margin-left: 10px;
 		margin-right: 10px;
 	}
-
 }
 
 
@@ -102,9 +101,6 @@ article{
 	text-align: justify;
 }
 
-
-
-
 /*occupé la place 2fois plus grande*/
 aside{
 	display: inline-block;
@@ -151,8 +147,4 @@ span{
 
 #logoReseaux img:hover{
 	transform: scale(1.6);  /*Zoom on Hover, 150% zoom - Note: if the zoom is too large, it will go outside of the viewport)*/
-
-	
-
-
 }
