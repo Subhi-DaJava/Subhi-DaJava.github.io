@@ -1,73 +1,71 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/> <!--par rapport le matériel-->
 
-        <title>MonPremierSiteWetP1+DA</title>
+        <title>MonPremierSiteWeb</title>
         <link rel="stylesheet" type="text/css" href="style.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
 
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+              rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     </head>
 
     <body>
    
-        <div id="MaPage">
+        <div class="container mt-4" id="MyPage">
+
             <header id="header"> 
                 <div id="top">
-
-                    <div id="titre">
-                        <h1>Subhi Yarmuhemmed</h1>
+                    <div id="myTitle">
+                        <h1>Subhi Yarmemet</h1>
                         <p>Développeur d'Application Java</p>
                     </div>
-                    <div class="discrip">
-                        <p>Bonjour, je suis Subhi, Développeur Java<br>
-                        bientôt diplômé chez OpenClassrooms.</p>
+                    <div class="description">
+                        <p>Bonjour, je suis Subhi, responsable, ponctuel, persévérant, ai l'esprit d'équipe. En tant que reconversion professionnelle dans
+                            l'informatique depuis août 2021, j'ai validé un
+                            titre de Développeur d’Applications Java chez
+                            <a href="https://openclassrooms.com" class="link-light link-underline-opacity-25 link-offset-2 link-underline-warning">Open ClassRooms</a>.</p>
                     </div>
-
                 </div>
-                <div id="maPhoto">
-                    <img class="monImage" src="photo.jpg" alt="photoPerso">
+                <div id="myPhoto">
+                    <img class="myImage" src="photo.jpg" alt="photoPerso">
                 </div>
             </header>
 
-            <section>
-
+            <section class="mt-4">
                 <aside class="aside">
                     <p class="balise">&lt;&sol;&gt;</p>
                 </aside>
 
                 <article>
                     
-                    <h2>Mes <span>compétences</span> </h2>
-                    <p>Bosseur, je ne lâche jamais, je continue jusqu'au bout. Le codage m'intéresse, je peux même dire que il est devenu ma passion et je suis prêt pour ce combat. Je peux citer quelques compétences que j'ai actuellement :</p>
+                    <h2 class="mt-2">Mes <span>compétences</span> </h2>
+                    <p>Bosseur, je ne lâche jamais, je vais jusqu'au bout. Le codage m'intéresse, c'est devenu ma passion et je suis prêt pour ce défi. Voici quelques compétences acquises lors de mon parcours: </p>
                         <ul>
-                            <li>Excel</li>
-                            <li>Word</li>
-                            <li>Ptt</li>
-                            <li>HTML5, CSS3, Java, Git et GitHub (notions)</li>
+                            <li>Outils IDE: <strong>IntelliJ</strong>, <strong>Eclipse</strong></li>
+                            <li>Langages: HTML5, CSS3, <strong>Java</strong>, <strong>JavaScript</strong>, SQL, NoSQL</li>
+                            <li>Database: H2, MySQL, MongoDB</li>
+                            <li>Frameworks: <strong>Spring</strong>, <strong>Spring Boot</strong>, Spring Security, Hibernate, <strong>Angular</strong>, Bootstrap</li>
+                            <li>Build and dependency management tools: <strong>Gradle</strong> and <strong>Maven</strong></li>
+                            <li>DevOps: <strong>Git</strong>, <strong>GitHub</strong>, <strong>GitLab</strong>, <strong>Docker</strong></li>
                         </ul>
-                    <p>En suivant les cours d'Openclassrooms, j'aurai des compétences en Développement d’Applications Java.</p>
-                    <p>Je suis passionné par le développement le front-end et le back-end. Je travaillerai énormément, suffisamment et efficacement
-                    avec de bonnes méthodes et avec un état d'esprit positif et partager plus ce que j'aurai avec mon entourage.</p>
+                    <p>Je suis passionné par le développement, aussi bien en <strong>back-end</strong> qu'en <strong>front-end</strong>. J'ai réalisé avec succès 9 projets pédagogiques qui m'ont assignés. (<a href="projects.html" class="link link-underline-opacity-25 link-offset-2 link-underline-primary">Lien de projets</a>)</p>
                 </article>
             </section>         
 
-            <footer>   
-
-                <div id="reseaux">
-                    <h1>Retrouvez-moi sur les réseaux</h1>
+            <footer class="mt-4">
+                <div id="socials">
+                    <h1>Retrouvez-moi sur les réseaux sociaux</h1>
                     <p><span>Une idée de projet ?</span>&nbsp;Contactez-moi !</p> <!--&nbsp: no breaking-space, espace insécable-->
                 </div>
 
-                <div id="logoReseau">
-
-                    <p id="logoReseaux"><a href="https://tweetdeck.twitter.com/"><img src="twitter.png" alt="twitter"></a> <a href="https://github.com/Subhi-DaJava" target="_blank"><img src="github.png" alt="github"></a> <a href="https://www.linkedin.com/in/subhi-yarmemet/"><img src="linkedin.png" alt="linkedin"></a> <a href="#"><img src="instagram.png" alt="instagram"> </a> <a href="#"><img src="facebook.png" alt="facebook"></a> </p>
-
+                <div id="logoSocial">
+                    <p id="logoSocials"> <a href="https://github.com/Subhi-DaJava" target="_blank"><img src="github.png" alt="github"></a> <a href="https://www.linkedin.com/in/subhi-yarmemet/"><img src="linkedin.png" alt="linkedin"></a> <a href="https://tweetdeck.twitter.com/"><img src="twitter.png" alt="twitter"></a> <a href="#"><img src="instagram.png" alt="instagram"> </a> <a href="#"><img src="facebook.png" alt="facebook"></a> </p>
                 </div>
-
             </footer>
         </div>
     </body>

@@ -1,0 +1,27 @@
+
+/*les balises les singe plus grand et plus petit disparaissent*/
+@media all and (max-width: 1024px) {
+
+    .aside {
+        display: none;
+    }
+
+    article {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
+
+
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+p {
+    font-size: 1.2em;
+    color: black;
+    font-weight: bold;
+}
+
+

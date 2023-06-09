@@ -1,150 +1,149 @@
-#MaPage{
-	width: 900px;
-	margin: auto;
-	height: 1050px;
+#MyPage {
+    width: 900px;
+    margin: auto;
+    height: 1050px;
 }
 
 /*responsive*/
-@media all and (max-width:  1024px){
+@media all and (max-width: 1024px) {
 
-	#MaPage{
-		width: auto;
-	}
+    #MyPage {
+        width: auto;
+    }
 
-	.monImage{
-		display: none;
-	}
+    .myImage {
+        display: none;
+    }
 
 }
 
 /*les balises les singe plus grand et plus petit disparaissent*/
-@media all and (max-width:  1024px){ 
+@media all and (max-width: 1024px) {
 
-	.aside{
-		display: none;
-	}
-	article{
-		margin-left: 10px;
-		margin-right: 10px;
-	}
+    .aside {
+        display: none;
+    }
+
+    article {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
 }
 
 
-
-
-
-
-body{
-	margin: 0px;
-	font-family: 'Montserrat', sans-serif;
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
 }
 
-#header{
+#header {
 
-	display: flex;
-	background: #7451eb; /*entre les divs (Top et maPhoto)*/
-	position: relative;
-	width: 900px;
-	height: 300px;   
+    display: flex;
+    background: #7451eb; /*entre les divs (Top et maPhoto)*/
+    position: relative;
+    width: 900px;
+    height: 360px;
 }
 
-#titre{
-	margin-top: 40px;
-	margin-left: 100px;
-	
+#myTitle {
+    margin-top: 20px;
+    margin-left: 80px;
+
 }
 
 
-#maPhoto img{
-	width: 22%;
-	 position: absolute; 
-    bottom: 0px;
-    right: 150px;
+#myPhoto img {
+    width: 22%;
+    position: absolute;
+    /*position: fixed;*/
+    bottom: 0;
+    right: 10px;
 }
 
-#titre p{
-	margin-left: -5px;
-	margin-top: 0px;
-	background: rgb(0, 221, 111);
-	width: 320px;
-	font-size: 1.2em;
-	text-align: center;
-	font-weight: bold;
-	
+#myTitle p {
+    margin-left: -5px;
+    margin-top: 0;
+    background: rgb(0, 221, 111);
+    width: 320px;
+    font-size: 1.2em;
+    text-align: center;
+    font-weight: bold;
+
 }
 
-#titre h1{
-	color: #ffffff;
-	font-size: 1.7em;
-	margin-bottom: 3px;
-	font-weight: bold;
-}
-.discrip{
-	margin-left: 80px;
-	margin-top: 50px;
-	font-size: 1.2em;
-	color: #ffffff;
+#myTitle h1 {
+    color: #ffffff;
+    font-size: 1.7em;
+    margin-bottom: 3px;
+    font-weight: bold;
 }
 
-section{
-	display: inline-flex;
-	position: relative;
+.description {
+    margin-left: 80px;
+    margin-top: 30px;
+    font-size: 1.4em;
+    color: #ffffff;
+}
 
-	
+section {
+    display: inline-flex;
+    position: relative;
+
 
 }
 
 /*occupé la place 3fois plus grandes*/
-article{
-	display: inline-block;
-	flex: 3; 
-	text-align: justify;
+article {
+    display: inline-block;
+    flex: 3;
+    text-align: justify;
 }
 
 /*occupé la place 2fois plus grande*/
-aside{
-	display: inline-block;
-	margin-left: 100px;
-	flex: 2;  
+aside {
+    display: inline-block;
+    margin-left: 100px;
+    flex: 2;
 }
 
-.balise{
-	font-size: 6em;
-	font-weight: bolder;
-}
-
-
-
-footer{
-	background: rgb(0, 47, 94);
-	height: 280px;
-	padding-top:70px  ;
-	padding-left: 100px;
-}
-#logoReseau p img{
-	width: 6%;
-}
-
-footer h1{
-	color: #FFF;
-	margin-bottom: 0px; /* h1 et p */
-}
-
-span{
-	background-color: rgb(0, 221, 111);
-	margin-right: 2px;
-	font-size: 1.2em;
-}
-
-#reseaux p{
-	color: #fff;
-	margin-top: 0px;
-	margin-bottom: 25px; /*p et logos*/
+.balise {
+    font-size: 6em;
+    font-weight: bolder;
 }
 
 
+footer {
+    background: rgb(0, 47, 94);
+    height: 280px;
+    padding-top: 70px;
+    padding-left: 100px;
+    width: 900px;
 
-
-#logoReseaux img:hover{
-	transform: scale(1.6);  /*Zoom on Hover, 150% zoom - Note: if the zoom is too large, it will go outside of the viewport)*/
 }
+
+#logoSocial p img {
+    width: 6%;
+}
+
+footer h1 {
+    color: #FFF;
+    margin-bottom: 0; /* h1 et p */
+}
+
+span {
+    background-color: rgb(0, 221, 111);
+    margin-right: 2px;
+    font-size: 1.2em;
+}
+
+#social p {
+    color: #fff;
+    margin-top: 0;
+    margin-bottom: 25px; /*p et logos*/
+}
+
+
+#logoSocials img:hover {
+    transform: scale(1.6); /*Zoom on Hover, 150% zoom - Note: if the zoom is too large, it will go outside of the viewport)*/
+}
+
