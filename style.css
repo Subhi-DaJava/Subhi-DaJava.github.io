@@ -1,5 +1,5 @@
 #MyPage {
-    width: 900px;
+    width: 1000px;
     margin: auto;
     height: 1050px;
 }
@@ -41,7 +41,7 @@ body {
     display: flex;
     background: #7451eb; /*entre les divs (Top et maPhoto)*/
     position: relative;
-    width: 900px;
+    width: 1000px;
     height: 360px;
 }
 
@@ -94,14 +94,15 @@ section {
 /*occupé la place 3fois plus grandes*/
 article {
     display: inline-block;
-    flex: 3;
+    flex: 4;
     text-align: justify;
+    font-size: 1.4em;
 }
 
 /*occupé la place 2fois plus grande*/
 aside {
     display: inline-block;
-    margin-left: 100px;
+    margin-left: 80px;
     flex: 2;
 }
 
@@ -116,7 +117,7 @@ footer {
     height: 280px;
     padding-top: 70px;
     padding-left: 100px;
-    width: 900px;
+    width: 1000px;
 
 }
 
