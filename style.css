@@ -52,10 +52,9 @@ body {
 }
 
 
-#myPhoto img {
+#myPhoto {
     width: 22%;
     position: absolute;
-    /*position: fixed;*/
     bottom: 0;
     right: 10px;
 }
