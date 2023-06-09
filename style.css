@@ -52,7 +52,7 @@ body {
 }
 
 
-#myPhoto {
+#myPhoto .myImage {
     width: 22%;
     position: absolute;
     bottom: 0;
